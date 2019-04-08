@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.khoito {
+  display: flex;
+  width: 1920px;
+  height: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+  .khoito .left {
+    display: flex;
+    width: 49.5%;
+    position: relative;
+    float: left;
+    background-color: white; }
+    .khoito .left:hover {
+      opacity: 0.8; }
+      .khoito .left:hover img {
+        transform: scale(1);
+        transition: 0.4s;
+        position: relative;
+        width: 96%;
+        height: 100.5%; }
+    .khoito .left .hieu_ung {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      z-index: 1000;
+      transition: 0.5s; }
+    .khoito .left img {
+      width: 961%;
+      height: 96%;
+      transform-origin: right;
+      transform: scale(1.1);
+      transition: 0.4s; }
+    .khoito .left a {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      color: white;
+      font-size: 27px;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-family: segoe ui light;
+      width: 100%;
+      text-align: center; }
+  .khoito .right {
+    display: flex;
+    width: 49.9%;
+    height: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    .khoito .right ._1khoi {
+      width: 49.5%;
+      display: flex;
+      position: relative; }
+      .khoito .right ._1khoi:nth-child(n+2) {
+        margin-top: 1%; }
+      .khoito .right ._1khoi img {
+        width: 100%;
+        height: 96%;
+        transform-origin: right;
+        transform: scale(1.1);
+        transition: 0.4s; }
+      .khoito .right ._1khoi a {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        color: white;
+        width: 100%;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase; }
+
+/*# sourceMappingURL=style.css.map */
